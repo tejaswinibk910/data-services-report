@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #ffffff;
+  color: #001E5F;
+  overflow-x: hidden;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode */
+.dark body {
+  background-color: #001E5F;
+  color: #FFD82B;
+}
+
+.dark h1,
+.dark h2,
+.dark h3 {
+  color: #FFD82B;
+}
+
+.dark .text-ur-navy {
+  color: #FFD82B;
+}
+
+.dark .text-charcoal {
+  color: #B7D3FF;
+}
+
+.dark .text-cobalt {
+  color: #FFC200;
+}
+
+.dark .text-azure {
+  color: #FFE95F;
+}
+
+.dark .text-gold {
+  color: #FFD82B;
+}
+
+.dark .bg-white {
+  background-color: #003EFF;
+}
+
+.dark .bg-gray-50 {
+  background-color: #021BC3;
+}
+
+.dark .border-silver {
+  border-color: rgba(255, 216, 43, 0.2);
+}
+
+.dark .border-cobalt {
+  border-color: #FFD82B;
+}
+
+.dark .hover\:border-cobalt:hover {
+  border-color: #FFC200;
+}
+
+h1, h2 {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 2.375rem;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 2.875rem;
+  }
+  h2 {
+    font-size: 2.375rem;
+  }
+}
+
+.section-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #003EFF;
+  margin-bottom: 1rem;
+}
+
+.dark .section-label {
+  color: #FFC200;
+}
+
+.divider {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #001E5F, #FFD82B);
+  margin-bottom: 3rem;
+}
+
+.dark .divider {
+  background: linear-gradient(90deg, #FFD82B, #FFC200);
+}
+
+/* Stat numbers */
+.dark .text-ur-navy {
+  color: #FFD82B !important;
+}
+
+.dark .text-cobalt {
+  color: #FFC200 !important;
+}
+
+.dark .text-gold {
+  color: #FFE95F !important;
+}
+
+.dark .text-azure {
+  color: #B7D3FF !important;
+}
+section.bg-ur-navy h1 {
+  color: #FFD82B !important;
+}
+
+canvas {
+  opacity: 1 !important;
+}
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+main {
+  position: relative;
+  z-index: 10;
+}

@@ -1,0 +1,112 @@
+{
+  "team_members": [
+    {
+      "name": "Heather Owen",
+      "title": "Data Librarian",
+      "bird": "Great Gray Owl",
+      "description": "Data Librarian who reviews data management plans, consults on best practices, and leads data literacy initiatives.",
+      "traits": "Flies thoughtfully and silently and is very wise"
+    },
+    {
+      "name": "Sarah Siddiqui",
+      "title": "Reproducibility Librarian",
+      "bird": "Merlin (Petit caporal)",
+      "description": "Reproducibility Librarian who recommends tools and best practices for analyzing and sharing methods, workflows, and code.",
+      "traits": "Compact, judicious, and level-headed"
+    },
+    {
+      "name": "Matthew Mariner",
+      "title": "Data Curator Librarian",
+      "bird": "Anhinga",
+      "description": "Data Curator Librarian managing URRR, ensuring thorough curation of all submitted data.",
+      "traits": "Rather awkward on land, but flies gracefully through water"
+    },
+    {
+      "name": "Daniel Castillo",
+      "title": "Somerville Director",
+      "bird": "Columbian Hummingbird",
+      "description": "Director of Science & Engineering Libraries and Research Initiatives, leading the Data Services team.",
+      "traits": "Busy and quick-moving"
+    }
+  ],
+  "workshops": {
+    "data_skills": {
+      "registered": 240,
+      "attended": 155,
+      "rating": 8.7,
+      "events": 5
+    },
+    "love_data": {
+      "registered": 468,
+      "attended": 240,
+      "rating": 8.4,
+      "events": 12
+    }
+  },
+  "engagement": {
+    "total": 315,
+    "busiest_month": "April 2025",
+    "busiest_count": 46,
+    "top_topic": "Data visualization",
+    "top_topic_count": 45,
+    "top_funder": "NIH",
+    "top_funder_count": 36,
+    "by_campus": [
+      { "name": "UR Libraries", "count": 144, "color": "#FFD82B", "percentage": 45.7 },
+      { "name": "Medical Center", "count": 72, "color": "#FFC200", "percentage": 22.9 },
+      { "name": "River Campus", "count": 63, "color": "#FFE95F", "percentage": 20.0 },
+      { "name": "Other", "count": 36, "color": "#B7D3FF", "percentage": 11.4 }
+    ],
+    "by_user_type": [
+      { "type": "Staff", "count": 111, "color": "#8B4513", "percentage": 35.2 },
+      { "type": "Faculty/Researcher", "count": 96, "color": "#A9A9A9", "percentage": 30.5 },
+      { "type": "Community Member", "count": 34, "color": "#FF8C42", "percentage": 10.8 },
+      { "type": "PhD", "count": 29, "color": "#90EE90", "percentage": 9.2 },
+      { "type": "Undergrad", "count": 23, "color": "#D2691E", "percentage": 7.3 },
+      { "type": "Grad-Master's", "count": 17, "color": "#FFD700", "percentage": 5.4 },
+      { "type": "Postdoctoral", "count": 3, "color": "#98FB98", "percentage": 1.0 },
+      { "type": "Alumni", "count": 1, "color": "#696969", "percentage": 0.3 },
+      { "type": "Other", "count": 1, "color": "#FFFF00", "percentage": 0.3 }
+    ],
+    "by_topic": [
+      { "topic": "Data visualization", "count": 45 },
+      { "topic": "DMSP review", "count": 38 },
+      { "topic": "URRR deposits", "count": 32 },
+      { "topic": "Reproducibility", "count": 28 },
+      { "topic": "Data cleaning", "count": 24 }
+    ]
+  },
+  "urrr": {
+    "deposits": 643,
+    "depositors": 58,
+    "views": 58709,
+    "downloads": 21865,
+    "most_viewed_type": "Datasets",
+    "most_viewed_count": 20689,
+    "views_by_type": [
+      { "type": "dataset", "count": 20689 },
+      { "type": "journal contribution", "count": 8500 },
+      { "type": "presentation", "count": 6500 },
+      { "type": "collection", "count": 4000 },
+      { "type": "online resource", "count": 3500 },
+      { "type": "conference contribution", "count": 2000 },
+      { "type": "book", "count": 1800 },
+      { "type": "figure", "count": 1600 }
+    ],
+    "uploads_by_type": [
+      { "type": "journal contribution", "percentage": 21.05, "color": "#5FC3C3" },
+      { "type": "dataset", "percentage": 18.95, "color": "#7FA9D4" },
+      { "type": "presentation", "percentage": 16.84, "color": "#E86BA4" },
+      { "type": "online resource", "percentage": 12.11, "color": "#A679D2" },
+      { "type": "standard", "percentage": 6.84, "color": "#E8A4C8" },
+      { "type": "workflow", "percentage": 5.26, "color": "#F4E85C" },
+      { "type": "poster", "percentage": 4.74, "color": "#D4C28F" },
+      { "type": "book", "percentage": 3.68, "color": "#E89A5C" },
+      { "type": "report", "percentage": 2.11, "color": "#C97A73" },
+      { "type": "conference contribution", "percentage": 1.58, "color": "#B8E6B8" },
+      { "type": "educational resource", "percentage": 1.58, "color": "#D4B8E6" },
+      { "type": "figure", "percentage": 1.58, "color": "#FFD4B8" },
+      { "type": "media", "percentage": 1.05, "color": "#FFE4B8" }
+    ]
+  }
+}
