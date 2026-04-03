@@ -53,9 +53,9 @@
     "top_funder_count": 36,
     "by_campus": [
       { "name": "UR Libraries", "count": 144, "color": "#FFD82B", "percentage": 45.7 },
-      { "name": "Medical Center", "count": 72, "color": "#FFC200", "percentage": 22.9 },
-      { "name": "River Campus", "count": 63, "color": "#FFE95F", "percentage": 20.0 },
-      { "name": "Other", "count": 36, "color": "#B7D3FF", "percentage": 11.4 }
+      { "name": "Medical Center", "count": 72, "color": "#FF6B9D", "percentage": 22.9 },
+      { "name": "River Campus", "count": 63, "color": "#4ECDC4", "percentage": 20.0 },
+      { "name": "Other", "count": 36, "color": "#95E1D3", "percentage": 11.4 }
     ],
     "by_user_type": [
       { "type": "Staff", "count": 111, "color": "#8B4513", "percentage": 35.2 },

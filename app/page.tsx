@@ -5,12 +5,14 @@ import WorkAreas from './sections/WorkAreas'
 import Workshops from './sections/Workshops'
 import Engagement from './sections/Engagement'
 import URRR from './sections/URRR'
+import Introduction from './sections/Introduction'
 import Future from './sections/Future'
 
 export default function Home() {
   return (
     <main style={{ position: 'relative', zIndex: 10 }}>
       <Hero />
+      <Introduction />
       <Stats />
       <WorkAreas />
       <Team />
