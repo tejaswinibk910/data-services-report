@@ -52,10 +52,12 @@
     "top_funder": "NIH",
     "top_funder_count": 36,
     "by_campus": [
-      { "name": "UR Libraries", "count": 144, "color": "#FFD82B", "percentage": 45.7 },
-      { "name": "Medical Center", "count": 72, "color": "#FF6B9D", "percentage": 22.9 },
-      { "name": "River Campus", "count": 63, "color": "#4ECDC4", "percentage": 20.0 },
-      { "name": "Other", "count": 36, "color": "#95E1D3", "percentage": 11.4 }
+      { "name": "River Campus", "count": 144, "color": "#FFD82B", "percentage": 45.7 },
+      { "name": "Medical Center", "count": 91, "color": "#FF6B9D", "percentage": 28.9 },
+      { "name": "Public Community", "count": 37, "color": "#4ECDC4", "percentage": 11.7 },
+      { "name": "UR Other", "count": 21, "color": "#95E1D3", "percentage": 6.7 },
+      { "name": "Other", "count": 18, "color": "#FFC200", "percentage": 5.7 },
+      { "name": "Eastman", "count": 4, "color": "#B7D3FF", "percentage": 1.3 }
     ],
     "by_user_type": [
       { "type": "Staff", "count": 111, "color": "#8B4513", "percentage": 35.2 },
