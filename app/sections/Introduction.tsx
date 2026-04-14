@@ -83,6 +83,54 @@ export default function Introduction() {
           </h2>
         </div>
 
+        {/* Quote Section */}
+        <div 
+          className="rounded-3xl p-12 max-w-5xl mx-auto mb-16"
+          style={{
+            background: 'rgba(0, 30, 95, 0.4)',
+            border: '2px solid rgba(255, 216, 43, 0.3)',
+          }}
+        >
+          <div className="mb-8 text-center">
+            <Award className="w-16 h-16 mx-auto" style={{ color: '#FFD82B' }} />
+          </div>
+          
+          <div className="space-y-6" style={{ color: '#E8E8E8' }}>
+            <p className="text-xl font-serif italic text-center" style={{ lineHeight: '1.8', color: '#FFE95F' }}>
+              "This year marked a significant milestone—our first full year together as a complete team."
+            </p>
+            
+            <p className="text-lg text-center" style={{ lineHeight: '1.7' }}>
+              We embraced this opportunity to expand our programming and foster new collaborations across 
+              the University of Rochester. I am especially proud of the contributions of our student employees, 
+              who have expanded their roles by teaching workshops and actively promoting UR Libraries Data Services.
+            </p>
+            
+            <p className="text-lg text-center" style={{ lineHeight: '1.7' }}>
+              Through our three signature workshop series, we hosted over 25 workshops and panels, attracting more 
+              than 1,000 registrants. Beyond the direct impact on research, we've cultivated long-term partnerships 
+              with Learning Initiatives, Scholarly Communications, Digital Scholarship, Studio X, CIRC, and RIT—
+              relationships that highlight the valuable services offered by River Campus Libraries.
+            </p>
+            
+            <p className="text-lg text-center font-semibold" style={{ lineHeight: '1.7', color: '#B7D3FF' }}>
+              Looking ahead, we are excited to build on this momentum by developing new collaborations that 
+              empower our students, faculty, and staff to conduct high-quality, innovative research.
+            </p>
+          </div>
+
+          <div style={{ width: '80px', height: '4px', background: 'linear-gradient(90deg, #FFD82B, #FFC200)', margin: '3rem auto 2rem' }} />
+          
+          <div className="text-center">
+            <p style={{ color: '#FFD82B', fontSize: '1.35rem', fontWeight: 600, marginBottom: '0.5rem' }}>
+              Daniel Castillo
+            </p>
+            <p style={{ color: '#B7D3FF', fontSize: '1rem' }}>
+              Director, Science & Engineering Libraries and Research Initiatives
+            </p>
+          </div>
+        </div>
+
         {/* Stats Grid */}
         <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {/* Card 1 */}
@@ -177,54 +225,6 @@ export default function Introduction() {
             <p style={{ color: '#B7D3FF', fontSize: '1rem', lineHeight: '1.6' }}>
               Our student employees expanded their roles by teaching workshops and actively promoting 
               UR Libraries Data Services across the university community.
-            </p>
-          </div>
-        </div>
-
-        {/* Quote Section */}
-        <div 
-          className="rounded-3xl p-12 max-w-5xl mx-auto"
-          style={{
-            background: 'rgba(0, 30, 95, 0.4)',
-            border: '2px solid rgba(255, 216, 43, 0.3)',
-          }}
-        >
-          <div className="mb-8 text-center">
-            <Award className="w-16 h-16 mx-auto" style={{ color: '#FFD82B' }} />
-          </div>
-          
-          <div className="space-y-6" style={{ color: '#E8E8E8' }}>
-            <p className="text-xl font-serif italic text-center" style={{ lineHeight: '1.8', color: '#FFE95F' }}>
-              "This year marked a significant milestone—our first full year together as a complete team."
-            </p>
-            
-            <p className="text-lg text-center" style={{ lineHeight: '1.7' }}>
-              We embraced this opportunity to expand our programming and foster new collaborations across 
-              the University of Rochester. I am especially proud of the contributions of our student employees, 
-              who have expanded their roles by teaching workshops and actively promoting UR Libraries Data Services.
-            </p>
-            
-            <p className="text-lg text-center" style={{ lineHeight: '1.7' }}>
-              Through our three signature workshop series, we hosted over 25 workshops and panels, attracting more 
-              than 1,000 registrants. Beyond the direct impact on research, we've cultivated long-term partnerships 
-              with Learning Initiatives, Scholarly Communications, Digital Scholarship, Studio X, CIRC, and RIT—
-              relationships that highlight the valuable services offered by River Campus Libraries.
-            </p>
-            
-            <p className="text-lg text-center font-semibold" style={{ lineHeight: '1.7', color: '#B7D3FF' }}>
-              Looking ahead, we are excited to build on this momentum by developing new collaborations that 
-              empower our students, faculty, and staff to conduct high-quality, innovative research.
-            </p>
-          </div>
-
-          <div style={{ width: '80px', height: '4px', background: 'linear-gradient(90deg, #FFD82B, #FFC200)', margin: '3rem auto 2rem' }} />
-          
-          <div className="text-center">
-            <p style={{ color: '#FFD82B', fontSize: '1.35rem', fontWeight: 600, marginBottom: '0.5rem' }}>
-              Daniel Castillo
-            </p>
-            <p style={{ color: '#B7D3FF', fontSize: '1rem' }}>
-              Director, Science & Engineering Libraries and Research Initiatives
             </p>
           </div>
         </div>
